@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Chess
 {
-    public partial class Form1 : Form
+    public partial class Frontend : Form
     {
-        public Form1()
+        public Frontend()
         {
             InitializeComponent();
         }
