@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Chess.backend;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace Chess
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            GameManager gm = new GameManager();
             Application.Run(new Frontend());
         }
     }

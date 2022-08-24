@@ -16,5 +16,10 @@ namespace Chess
         {
             InitializeComponent();
         }
+
+        private void cell1_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Testtttttttt");
+        }
     }
 }

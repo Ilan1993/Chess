@@ -51,6 +51,7 @@
     <Compile Include="backend\GameManager.cs" />
     <Compile Include="backend\Piece.cs" />
     <Compile Include="backend\pieces\Pown.cs" />
+    <Compile Include="backend\players\Player.cs" />
     <Compile Include="Frontend.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frontend.resx">
+      <DependentUpon>Frontend.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -84,7 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="backend\images\" />
-    <Folder Include="backend\players\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
