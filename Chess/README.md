@@ -4,7 +4,7 @@
   Authors
 -------------
 1. Ilan Poliakov
-2. Lidor 
+2. Lidor Margi
 
 -------------
   Backgroud
