@@ -55,7 +55,7 @@
     <Compile Include="backend\pieces\Pawn.cs" />
     <Compile Include="backend\pieces\Queen.cs" />
     <Compile Include="backend\pieces\Rook.cs" />
-    <Compile Include="backend\players\Piece.cs" />
+    <Compile Include="backend\pieces\Piece.cs" />
     <Compile Include="backend\players\Player.cs" />
     <Compile Include="backend\Point.cs" />
     <Compile Include="Frontend.cs">

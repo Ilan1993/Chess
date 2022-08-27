@@ -11,12 +11,18 @@ namespace ChessWFA
 	{
 		const int SIZE = 8;
 		Piece[,] mat;
-		static int turn = 1;
 
 		public Board()
 		{
 			mat = new Piece[SIZE, SIZE];
+			cleanBoard(mat);
 			newBoard(mat);
+		}
+		void cleanBoard(Piece[,] mat)
+		{
+			for (int i = 0; i < 8; i++)
+				for (int j = 0; j < 8; j++)
+					mat[i,j] = null;
 		}
 
 		void newBoard(Piece[,] mat)
@@ -44,8 +50,6 @@ namespace ChessWFA
 
 			}
 		}
-
-		
 
 	}
 }

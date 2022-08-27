@@ -22,6 +22,7 @@ namespace Chess.backend
             p1 = new Player();
             Console.WriteLine(p1.name);
         }
+
         
     }
 }

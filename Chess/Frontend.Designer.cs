@@ -99,7 +99,7 @@ namespace Chess
             // 
             this.a1.AccessibleName = "";
             this.a1.AccessibleRole = System.Windows.Forms.AccessibleRole.ScrollBar;
-            this.a1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.a1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.a1.Location = new System.Drawing.Point(98, 810);
             this.a1.Name = "a1";
             this.a1.Size = new System.Drawing.Size(100, 100);
