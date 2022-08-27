@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Chess.backend.players
 {
-    class Player
+    public class Player
     {
         public string name;
-        public string score;
+        public int score;
         public Player(){
             this.name = "Ilan";
+            this.score = 0;
         }
     }
 }

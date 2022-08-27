@@ -16,11 +16,14 @@ namespace Chess.backend
 
         public Player p1;
         public Player p2;
-        
+        public Board board;
+
         public GameManager()
         {
             p1 = new Player();
+            p2 = new Player();
             Console.WriteLine(p1.name);
+            board = new Board();
         }
 
         

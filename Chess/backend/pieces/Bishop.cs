@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chess.backend
+namespace Chess.backend.pieces
 {
     [Serializable]
-    class Bishop : Piece
+    public class Bishop : Piece
     {
-        public Bishop(int x, int y, bool player)
+        public Bishop(int x, int y, bool player): base(x, y, player)
         {
             this.location.x = x;
             this.location.y = y;

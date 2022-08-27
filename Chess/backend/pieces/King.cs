@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace Chess.backend
+namespace Chess.backend.pieces
 {
     [Serializable]
-    class King : Queen
+    public class King : Queen
     {
-        public King(int x, int y, bool player) : base(player)
+        public King(int x, int y, bool player) : base(x, y, player)
         {
             distance = 1;
             this.location.x = x;

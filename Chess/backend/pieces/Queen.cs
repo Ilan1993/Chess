@@ -4,18 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chess.backend
+namespace Chess.backend.pieces
 {
     [Serializable]
-    class Queen : Piece
+    public class Queen : Piece
     {
-        public Queen(bool player)
-        {
-            this.player = player;
-            
-        }
-
-        public Queen(int x, int y, bool player)
+ 
+        public Queen(int x, int y, bool player) : base(x, y, player)
         {
             this.location.x = x;
             this.location.y = y;
