@@ -49,9 +49,15 @@
     <Compile Include="backend\Board.cs" />
     <Compile Include="backend\Enums.cs" />
     <Compile Include="backend\GameManager.cs" />
-    <Compile Include="backend\Piece.cs" />
-    <Compile Include="backend\pieces\Pown.cs" />
+    <Compile Include="backend\pieces\Bishop.cs" />
+    <Compile Include="backend\pieces\King.cs" />
+    <Compile Include="backend\pieces\Knight.cs" />
+    <Compile Include="backend\pieces\Pawn.cs" />
+    <Compile Include="backend\pieces\Queen.cs" />
+    <Compile Include="backend\pieces\Rook.cs" />
+    <Compile Include="backend\players\Piece.cs" />
     <Compile Include="backend\players\Player.cs" />
+    <Compile Include="backend\Point.cs" />
     <Compile Include="Frontend.cs">
       <SubType>Form</SubType>
     </Compile>
