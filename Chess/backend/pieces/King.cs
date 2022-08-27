@@ -12,5 +12,14 @@ namespace ChessWFA
             this.location.y = y;
             this.player = player;
         }
+
+        public override bool isValidMove(Piece[,] mat, Point from, Point to)
+        {
+            if (base.isValidMove(mat, from, to))
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

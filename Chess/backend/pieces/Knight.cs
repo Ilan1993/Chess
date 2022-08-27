@@ -15,5 +15,21 @@ namespace ChessWFA
             this.location.y = y;
             this.player = player;
         }
+        public override bool isValidMove(Piece[,] mat, Point from, Point to)
+        {
+            if (base.isValidMove(mat, from, to))
+            {
+                if (from.x + 1 == to.x && from.y + 2 == to.y) return true;
+                if (from.x - 1 == to.x && from.y + 2 == to.y) return true;
+                if (from.x + 1 == to.x && from.y - 2 == to.y) return true;
+                if (from.x - 1 == to.x && from.y - 2 == to.y) return true;
+                if (from.x + 2 == to.x && from.y + 1 == to.y) return true;
+                if (from.x - 2 == to.x && from.y + 1 == to.y) return true;
+                if (from.x + 2 == to.x && from.y - 1 == to.y) return true;
+                if (from.x - 2 == to.x && from.y - 1 == to.y) return true;
+            }
+            return false;
+        }
+
     }
 }

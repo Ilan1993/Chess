@@ -15,12 +15,14 @@ namespace ChessWFA
         protected Point location;
         public int distance = 7;
 
-		bool validMove(Piece[,] mat, Point from, Point to)
+		public virtual bool isValidMove(Piece[,] mat, Point from, Point to)
         {
             if (to.x < 0 || to.x > 7 || to.y < 0 || to.y > 7) return false;
-            if (mat[to.x, to.y] != null || this.player == mat[to.x, to.y].player) return false;
+            if (this.player == mat[to.x, to.y].player) return false;
             return true;
         }
+
+
 
 
 	}
