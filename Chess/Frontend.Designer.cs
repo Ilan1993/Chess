@@ -29,7 +29,7 @@ namespace Chess
         /// </summary>
         private void InitializeComponent()
         {
-            this.cell1 = new System.Windows.Forms.Button();
+            this.a1 = new System.Windows.Forms.Button();
             this.cell2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -95,15 +95,18 @@ namespace Chess
             this.button64 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // cell1
+            // a1
             // 
-            this.cell1.Location = new System.Drawing.Point(98, 810);
-            this.cell1.Name = "cell1";
-            this.cell1.Size = new System.Drawing.Size(100, 100);
-            this.cell1.TabIndex = 0;
-            this.cell1.Text = "button1";
-            this.cell1.UseVisualStyleBackColor = true;
-            this.cell1.Click += new System.EventHandler(this.cell1_Click);
+            this.a1.AccessibleName = "";
+            this.a1.AccessibleRole = System.Windows.Forms.AccessibleRole.ScrollBar;
+            this.a1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.a1.Location = new System.Drawing.Point(98, 810);
+            this.a1.Name = "a1";
+            this.a1.Size = new System.Drawing.Size(100, 100);
+            this.a1.TabIndex = 0;
+            this.a1.Text = "button1";
+            this.a1.UseVisualStyleBackColor = false;
+            this.a1.Click += new System.EventHandler(this.cell1_Click);
             // 
             // cell2
             // 
@@ -113,136 +116,151 @@ namespace Chess
             this.cell2.TabIndex = 1;
             this.cell2.Text = "button2";
             this.cell2.UseVisualStyleBackColor = true;
+            this.cell2.Click += new System.EventHandler(this.cell2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(386, 810);
+            this.button3.Location = new System.Drawing.Point(290, 810);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 100);
             this.button3.TabIndex = 3;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(290, 810);
+            this.button4.Location = new System.Drawing.Point(386, 810);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 100);
             this.button4.TabIndex = 2;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(768, 810);
+            this.button5.Location = new System.Drawing.Point(480, 810);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(100, 100);
             this.button5.TabIndex = 7;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(672, 810);
+            this.button6.Location = new System.Drawing.Point(576, 810);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(100, 100);
             this.button6.TabIndex = 6;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(576, 810);
+            this.button7.Location = new System.Drawing.Point(672, 810);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(100, 100);
             this.button7.TabIndex = 5;
             this.button7.Text = "button7";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(480, 810);
+            this.button8.Location = new System.Drawing.Point(768, 810);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(100, 100);
             this.button8.TabIndex = 4;
             this.button8.Text = "button8";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(768, 714);
+            this.button9.Location = new System.Drawing.Point(98, 714);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(100, 100);
             this.button9.TabIndex = 15;
             this.button9.Text = "button9";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(672, 714);
+            this.button10.Location = new System.Drawing.Point(194, 714);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(100, 100);
             this.button10.TabIndex = 14;
             this.button10.Text = "button10";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(576, 714);
+            this.button11.Location = new System.Drawing.Point(290, 714);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(100, 100);
             this.button11.TabIndex = 13;
             this.button11.Text = "button11";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(480, 714);
+            this.button12.Location = new System.Drawing.Point(386, 714);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(100, 100);
             this.button12.TabIndex = 12;
             this.button12.Text = "button12";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(386, 714);
+            this.button13.Location = new System.Drawing.Point(480, 714);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(100, 100);
             this.button13.TabIndex = 11;
             this.button13.Text = "button13";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(290, 714);
+            this.button14.Location = new System.Drawing.Point(576, 714);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(100, 100);
             this.button14.TabIndex = 10;
             this.button14.Text = "button14";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(194, 714);
+            this.button15.Location = new System.Drawing.Point(672, 714);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(100, 100);
             this.button15.TabIndex = 9;
             this.button15.Text = "button15";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(98, 714);
+            this.button16.Location = new System.Drawing.Point(768, 714);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(100, 100);
             this.button16.TabIndex = 8;
             this.button16.Text = "button16";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(768, 520);
+            this.button17.Location = new System.Drawing.Point(98, 616);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(100, 100);
             this.button17.TabIndex = 31;
@@ -251,7 +269,7 @@ namespace Chess
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(672, 520);
+            this.button18.Location = new System.Drawing.Point(194, 616);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(100, 100);
             this.button18.TabIndex = 30;
@@ -260,7 +278,7 @@ namespace Chess
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(576, 520);
+            this.button19.Location = new System.Drawing.Point(290, 616);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(100, 100);
             this.button19.TabIndex = 29;
@@ -269,124 +287,137 @@ namespace Chess
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(480, 520);
+            this.button20.Location = new System.Drawing.Point(386, 616);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(100, 100);
             this.button20.TabIndex = 28;
             this.button20.Text = "button20";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(386, 520);
+            this.button21.Location = new System.Drawing.Point(480, 616);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(100, 100);
             this.button21.TabIndex = 27;
             this.button21.Text = "button21";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button22
             // 
-            this.button22.Location = new System.Drawing.Point(290, 520);
+            this.button22.Location = new System.Drawing.Point(576, 616);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(100, 100);
             this.button22.TabIndex = 26;
             this.button22.Text = "button22";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(194, 520);
+            this.button23.Location = new System.Drawing.Point(672, 616);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(100, 100);
             this.button23.TabIndex = 25;
             this.button23.Text = "button23";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
-            this.button24.Location = new System.Drawing.Point(98, 520);
+            this.button24.Location = new System.Drawing.Point(768, 616);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(100, 100);
             this.button24.TabIndex = 24;
             this.button24.Text = "button24";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button25
             // 
-            this.button25.Location = new System.Drawing.Point(768, 616);
+            this.button25.Location = new System.Drawing.Point(98, 520);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(100, 100);
             this.button25.TabIndex = 23;
             this.button25.Text = "button25";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button26
             // 
-            this.button26.Location = new System.Drawing.Point(672, 616);
+            this.button26.Location = new System.Drawing.Point(194, 520);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(100, 100);
             this.button26.TabIndex = 22;
             this.button26.Text = "button26";
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // button27
             // 
-            this.button27.Location = new System.Drawing.Point(576, 616);
+            this.button27.Location = new System.Drawing.Point(290, 520);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(100, 100);
             this.button27.TabIndex = 21;
             this.button27.Text = "button27";
             this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button28
             // 
-            this.button28.Location = new System.Drawing.Point(480, 616);
+            this.button28.Location = new System.Drawing.Point(386, 520);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(100, 100);
             this.button28.TabIndex = 20;
             this.button28.Text = "button28";
             this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // button29
             // 
-            this.button29.Location = new System.Drawing.Point(386, 616);
+            this.button29.Location = new System.Drawing.Point(480, 520);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(100, 100);
             this.button29.TabIndex = 19;
             this.button29.Text = "button29";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button30
             // 
-            this.button30.Location = new System.Drawing.Point(290, 616);
+            this.button30.Location = new System.Drawing.Point(576, 520);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(100, 100);
             this.button30.TabIndex = 18;
             this.button30.Text = "button30";
             this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // button31
             // 
-            this.button31.Location = new System.Drawing.Point(194, 616);
+            this.button31.Location = new System.Drawing.Point(672, 520);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(100, 100);
             this.button31.TabIndex = 17;
             this.button31.Text = "button31";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // button32
             // 
-            this.button32.Location = new System.Drawing.Point(98, 616);
+            this.button32.Location = new System.Drawing.Point(768, 520);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(100, 100);
             this.button32.TabIndex = 16;
             this.button32.Text = "button32";
             this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // button33
             // 
-            this.button33.Location = new System.Drawing.Point(768, 133);
+            this.button33.Location = new System.Drawing.Point(98, 423);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(100, 100);
             this.button33.TabIndex = 63;
@@ -395,7 +426,7 @@ namespace Chess
             // 
             // button34
             // 
-            this.button34.Location = new System.Drawing.Point(672, 133);
+            this.button34.Location = new System.Drawing.Point(194, 423);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(100, 100);
             this.button34.TabIndex = 62;
@@ -404,7 +435,7 @@ namespace Chess
             // 
             // button35
             // 
-            this.button35.Location = new System.Drawing.Point(576, 133);
+            this.button35.Location = new System.Drawing.Point(290, 423);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(100, 100);
             this.button35.TabIndex = 61;
@@ -413,7 +444,7 @@ namespace Chess
             // 
             // button36
             // 
-            this.button36.Location = new System.Drawing.Point(480, 133);
+            this.button36.Location = new System.Drawing.Point(386, 423);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(100, 100);
             this.button36.TabIndex = 60;
@@ -422,7 +453,7 @@ namespace Chess
             // 
             // button37
             // 
-            this.button37.Location = new System.Drawing.Point(386, 133);
+            this.button37.Location = new System.Drawing.Point(480, 423);
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(100, 100);
             this.button37.TabIndex = 59;
@@ -431,7 +462,7 @@ namespace Chess
             // 
             // button38
             // 
-            this.button38.Location = new System.Drawing.Point(290, 133);
+            this.button38.Location = new System.Drawing.Point(576, 423);
             this.button38.Name = "button38";
             this.button38.Size = new System.Drawing.Size(100, 100);
             this.button38.TabIndex = 58;
@@ -440,7 +471,7 @@ namespace Chess
             // 
             // button39
             // 
-            this.button39.Location = new System.Drawing.Point(194, 133);
+            this.button39.Location = new System.Drawing.Point(672, 423);
             this.button39.Name = "button39";
             this.button39.Size = new System.Drawing.Size(100, 100);
             this.button39.TabIndex = 57;
@@ -449,7 +480,7 @@ namespace Chess
             // 
             // button40
             // 
-            this.button40.Location = new System.Drawing.Point(98, 133);
+            this.button40.Location = new System.Drawing.Point(768, 423);
             this.button40.Name = "button40";
             this.button40.Size = new System.Drawing.Size(100, 100);
             this.button40.TabIndex = 56;
@@ -458,7 +489,7 @@ namespace Chess
             // 
             // button41
             // 
-            this.button41.Location = new System.Drawing.Point(768, 229);
+            this.button41.Location = new System.Drawing.Point(98, 328);
             this.button41.Name = "button41";
             this.button41.Size = new System.Drawing.Size(100, 100);
             this.button41.TabIndex = 55;
@@ -467,7 +498,7 @@ namespace Chess
             // 
             // button42
             // 
-            this.button42.Location = new System.Drawing.Point(672, 229);
+            this.button42.Location = new System.Drawing.Point(194, 328);
             this.button42.Name = "button42";
             this.button42.Size = new System.Drawing.Size(100, 100);
             this.button42.TabIndex = 54;
@@ -476,7 +507,7 @@ namespace Chess
             // 
             // button43
             // 
-            this.button43.Location = new System.Drawing.Point(576, 229);
+            this.button43.Location = new System.Drawing.Point(290, 328);
             this.button43.Name = "button43";
             this.button43.Size = new System.Drawing.Size(100, 100);
             this.button43.TabIndex = 53;
@@ -485,7 +516,7 @@ namespace Chess
             // 
             // button44
             // 
-            this.button44.Location = new System.Drawing.Point(480, 229);
+            this.button44.Location = new System.Drawing.Point(386, 328);
             this.button44.Name = "button44";
             this.button44.Size = new System.Drawing.Size(100, 100);
             this.button44.TabIndex = 52;
@@ -494,7 +525,7 @@ namespace Chess
             // 
             // button45
             // 
-            this.button45.Location = new System.Drawing.Point(386, 229);
+            this.button45.Location = new System.Drawing.Point(480, 328);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(100, 100);
             this.button45.TabIndex = 51;
@@ -503,7 +534,7 @@ namespace Chess
             // 
             // button46
             // 
-            this.button46.Location = new System.Drawing.Point(290, 229);
+            this.button46.Location = new System.Drawing.Point(576, 328);
             this.button46.Name = "button46";
             this.button46.Size = new System.Drawing.Size(100, 100);
             this.button46.TabIndex = 50;
@@ -512,7 +543,7 @@ namespace Chess
             // 
             // button47
             // 
-            this.button47.Location = new System.Drawing.Point(194, 229);
+            this.button47.Location = new System.Drawing.Point(672, 328);
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(100, 100);
             this.button47.TabIndex = 49;
@@ -521,7 +552,7 @@ namespace Chess
             // 
             // button48
             // 
-            this.button48.Location = new System.Drawing.Point(98, 229);
+            this.button48.Location = new System.Drawing.Point(768, 328);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(100, 100);
             this.button48.TabIndex = 48;
@@ -530,7 +561,7 @@ namespace Chess
             // 
             // button49
             // 
-            this.button49.Location = new System.Drawing.Point(768, 327);
+            this.button49.Location = new System.Drawing.Point(98, 231);
             this.button49.Name = "button49";
             this.button49.Size = new System.Drawing.Size(100, 100);
             this.button49.TabIndex = 47;
@@ -539,7 +570,7 @@ namespace Chess
             // 
             // button50
             // 
-            this.button50.Location = new System.Drawing.Point(672, 327);
+            this.button50.Location = new System.Drawing.Point(194, 231);
             this.button50.Name = "button50";
             this.button50.Size = new System.Drawing.Size(100, 100);
             this.button50.TabIndex = 46;
@@ -548,7 +579,7 @@ namespace Chess
             // 
             // button51
             // 
-            this.button51.Location = new System.Drawing.Point(576, 327);
+            this.button51.Location = new System.Drawing.Point(290, 231);
             this.button51.Name = "button51";
             this.button51.Size = new System.Drawing.Size(100, 100);
             this.button51.TabIndex = 45;
@@ -557,7 +588,7 @@ namespace Chess
             // 
             // button52
             // 
-            this.button52.Location = new System.Drawing.Point(480, 327);
+            this.button52.Location = new System.Drawing.Point(386, 231);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(100, 100);
             this.button52.TabIndex = 44;
@@ -566,7 +597,7 @@ namespace Chess
             // 
             // button53
             // 
-            this.button53.Location = new System.Drawing.Point(386, 327);
+            this.button53.Location = new System.Drawing.Point(480, 231);
             this.button53.Name = "button53";
             this.button53.Size = new System.Drawing.Size(100, 100);
             this.button53.TabIndex = 43;
@@ -575,7 +606,7 @@ namespace Chess
             // 
             // button54
             // 
-            this.button54.Location = new System.Drawing.Point(290, 327);
+            this.button54.Location = new System.Drawing.Point(576, 231);
             this.button54.Name = "button54";
             this.button54.Size = new System.Drawing.Size(100, 100);
             this.button54.TabIndex = 42;
@@ -584,7 +615,7 @@ namespace Chess
             // 
             // button55
             // 
-            this.button55.Location = new System.Drawing.Point(194, 327);
+            this.button55.Location = new System.Drawing.Point(672, 231);
             this.button55.Name = "button55";
             this.button55.Size = new System.Drawing.Size(100, 100);
             this.button55.TabIndex = 41;
@@ -593,7 +624,7 @@ namespace Chess
             // 
             // button56
             // 
-            this.button56.Location = new System.Drawing.Point(98, 327);
+            this.button56.Location = new System.Drawing.Point(768, 231);
             this.button56.Name = "button56";
             this.button56.Size = new System.Drawing.Size(100, 100);
             this.button56.TabIndex = 40;
@@ -602,7 +633,7 @@ namespace Chess
             // 
             // button57
             // 
-            this.button57.Location = new System.Drawing.Point(768, 423);
+            this.button57.Location = new System.Drawing.Point(98, 135);
             this.button57.Name = "button57";
             this.button57.Size = new System.Drawing.Size(100, 100);
             this.button57.TabIndex = 39;
@@ -611,7 +642,7 @@ namespace Chess
             // 
             // button58
             // 
-            this.button58.Location = new System.Drawing.Point(672, 423);
+            this.button58.Location = new System.Drawing.Point(194, 135);
             this.button58.Name = "button58";
             this.button58.Size = new System.Drawing.Size(100, 100);
             this.button58.TabIndex = 38;
@@ -620,7 +651,7 @@ namespace Chess
             // 
             // button59
             // 
-            this.button59.Location = new System.Drawing.Point(576, 423);
+            this.button59.Location = new System.Drawing.Point(290, 135);
             this.button59.Name = "button59";
             this.button59.Size = new System.Drawing.Size(100, 100);
             this.button59.TabIndex = 37;
@@ -629,7 +660,7 @@ namespace Chess
             // 
             // button60
             // 
-            this.button60.Location = new System.Drawing.Point(480, 423);
+            this.button60.Location = new System.Drawing.Point(386, 135);
             this.button60.Name = "button60";
             this.button60.Size = new System.Drawing.Size(100, 100);
             this.button60.TabIndex = 36;
@@ -638,7 +669,7 @@ namespace Chess
             // 
             // button61
             // 
-            this.button61.Location = new System.Drawing.Point(386, 423);
+            this.button61.Location = new System.Drawing.Point(480, 135);
             this.button61.Name = "button61";
             this.button61.Size = new System.Drawing.Size(100, 100);
             this.button61.TabIndex = 35;
@@ -647,7 +678,7 @@ namespace Chess
             // 
             // button62
             // 
-            this.button62.Location = new System.Drawing.Point(290, 423);
+            this.button62.Location = new System.Drawing.Point(576, 135);
             this.button62.Name = "button62";
             this.button62.Size = new System.Drawing.Size(100, 100);
             this.button62.TabIndex = 34;
@@ -656,7 +687,7 @@ namespace Chess
             // 
             // button63
             // 
-            this.button63.Location = new System.Drawing.Point(194, 423);
+            this.button63.Location = new System.Drawing.Point(672, 135);
             this.button63.Name = "button63";
             this.button63.Size = new System.Drawing.Size(100, 100);
             this.button63.TabIndex = 33;
@@ -665,7 +696,7 @@ namespace Chess
             // 
             // button64
             // 
-            this.button64.Location = new System.Drawing.Point(98, 423);
+            this.button64.Location = new System.Drawing.Point(768, 135);
             this.button64.Name = "button64";
             this.button64.Size = new System.Drawing.Size(100, 100);
             this.button64.TabIndex = 32;
@@ -676,7 +707,7 @@ namespace Chess
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1115, 942);
+            this.ClientSize = new System.Drawing.Size(1342, 942);
             this.Controls.Add(this.button33);
             this.Controls.Add(this.button34);
             this.Controls.Add(this.button35);
@@ -740,7 +771,7 @@ namespace Chess
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.cell2);
-            this.Controls.Add(this.cell1);
+            this.Controls.Add(this.a1);
             this.Name = "Frontend";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -749,7 +780,7 @@ namespace Chess
 
         #endregion
 
-        private System.Windows.Forms.Button cell1;
+        private System.Windows.Forms.Button a1;
         private System.Windows.Forms.Button cell2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
