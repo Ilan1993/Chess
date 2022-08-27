@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChessWFA
+namespace Chess.backend
 {
     [Serializable]
     class Knight : Piece

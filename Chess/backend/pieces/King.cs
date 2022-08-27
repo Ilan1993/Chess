@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ChessWFA
+namespace Chess.backend
 {
     [Serializable]
     class King : Queen

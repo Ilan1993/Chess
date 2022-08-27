@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace ChessWFA
+namespace Chess.backend
 {
 	class Board
 	{
